@@ -1,0 +1,38 @@
+$titleColor: #001747;
+$titleSize: 16px;
+$eightPadding: 8px;
+
+.listContainer {
+    background-color: #fff;
+    width: 290px;
+    height: 732px;
+    border: 1px solid rgba(0, 23, 71, 0.07);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    float: left;
+    margin-right: 12px;
+    padding-top: 24px;
+    padding-left: 24px;
+    z-index: 5px;
+    margin-bottom: 12px;
+    .title {
+        width: 242px;
+        color: $titleColor;
+        font-size: $titleSize;
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #f6f9fb;
+        img {
+            padding-right: $eightPadding;
+        }
+    }
+    .right {
+        float: right;
+        border: 1px solid rgba(0, 23, 71, 0.05);
+        border-radius: 4px;
+        background-color: rgba(45, 112, 253, 0.1);
+
+        padding: 0px 6px 0px 6px;
+        color: #2d70fd;
+    }
+}

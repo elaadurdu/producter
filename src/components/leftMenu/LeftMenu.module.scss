@@ -1,0 +1,19 @@
+$leftMenuWidth: 210px;
+$lineColor: #f6f9fb;
+.leftMenuContainer {
+    background-color: white;
+    width: $leftMenuWidth;
+    border-right: 1px solid $lineColor;
+    height: 760px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .leftMenuContainer {
+        display: none;
+        clear: both;
+    }
+}

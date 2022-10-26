@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACf,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAJO,KAAK;EAKjB,YAAY,EAAE,GAAG,CAAC,KAAK,CAJf,OAAO;EAKf,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,eAAe;EACxB,WAAW,EAAE,mBAAmB;EAChC,KAAK,EAAE,IAAI;CACd;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,kBAAkB,CAAC;IACf,OAAO,EAAE,IAAI;IACb,KAAK,EAAE,IAAI;GACd",
+    "sources": [
+        "LeftMenu.module.scss"
+    ],
+    "names": [],
+    "file": "LeftMenu.module.css"
+}

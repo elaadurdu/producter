@@ -1,0 +1,42 @@
+$leftMenuWidth: 210px;
+$lineColor: #f6f9fb;
+$lightGrayColor: #405175;
+$heightOption: 32px;
+$blueColor: #2d70fd;
+$fourPixel: 4px;
+$tenPixel: 10px;
+$darkColor: #001747;
+.bottom {
+    bottom: 0px;
+    ul {
+        list-style: none;
+        color: $lightGrayColor;
+        size: 13px;
+        padding-left: 20px;
+        li {
+            height: $heightOption;
+            width: 161px;
+            margin-bottom: $tenPixel;
+
+            img {
+                padding-right: $tenPixel;
+                padding-left: $tenPixel;
+            }
+        }
+        li:nth-child(2) {
+            width: 175px;
+        }
+        li:nth-child(4) {
+            height: 56px;
+            border-top: 1px solid $lineColor;
+            padding: 15px 0px 0px 0px;
+            border-bottom: 1px solid $lineColor;
+            color: $darkColor;
+        }
+        li:nth-child(5) {
+            height: 56px;
+            padding: 0px 0px 0px 0px;
+            color: $darkColor;
+        }
+    }
+}

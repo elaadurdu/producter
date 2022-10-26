@@ -1,0 +1,52 @@
+$leftMenuWidth: 210px;
+$lineColor: #f6f9fb;
+$lightGrayColor: #405175;
+$heightOption: 32px;
+$blueColor: #2d70fd;
+$fourPixel: 4px;
+$tenPixel: 10px;
+.top {
+    top: 0px;
+    padding-bottom: 290px;
+    padding-top: 24px;
+    ul {
+        list-style: none;
+        color: $lightGrayColor;
+        size: 13px;
+        padding-left: 20px;
+        li {
+            height: $heightOption;
+            width: 161px;
+            margin-bottom: $tenPixel;
+
+            vertical-align: middle;
+
+            img {
+                padding-right: $tenPixel;
+                padding-left: $tenPixel;
+            }
+        }
+        .active {
+            background-color: $blueColor;
+            color: white;
+            border-radius: $fourPixel;
+            span {
+                padding-top: 4px;
+                float: left;
+            }
+            img {
+                padding-top: 8px;
+                float: left;
+            }
+            .circle {
+                border-radius: 1.5px;
+                width: 5px;
+                height: 5px;
+                background-color: #fff;
+                float: right;
+                margin-top: 12px;
+                margin-right: 14px;
+            }
+        }
+    }
+}

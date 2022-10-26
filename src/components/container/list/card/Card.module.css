@@ -1,0 +1,54 @@
+.cardContainer {
+  width: 242px;
+  height: 88px;
+  border: 1px solid rgba(0, 23, 71, 0.05);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  padding: 0;
+}
+
+.cardContainer .text {
+  color: #405175;
+  font-size: 13px;
+  padding-bottom: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cardContainer .bottomInfo ul {
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  width: 100%;
+}
+
+.cardContainer .bottomInfo ul li {
+  float: left;
+}
+
+.cardContainer .bottomInfo ul li:nth-child(2) {
+  color: #8c97ac;
+  padding-left: 4px;
+}
+
+.cardContainer .bottomInfo ul li:nth-child(5) {
+  float: right;
+  padding-right: 12px;
+}
+
+.cardContainer .bottomInfo ul li:nth-child(4) {
+  float: right;
+  border: 1px solid rgba(0, 23, 71, 0.05);
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 0px 6px 0px 6px;
+}
+
+.cardContainer .bottomInfo ul li:nth-child(3) {
+  float: right;
+  padding-left: 12px;
+}
+/*# sourceMappingURL=Card.module.css.map */

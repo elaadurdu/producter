@@ -1,0 +1,18 @@
+.leftMenuContainer {
+  background-color: white;
+  width: 210px;
+  border-right: 1px solid #f6f9fb;
+  height: 760px;
+  display: block;
+  padding: 0px 0px 0px 0px;
+  font-family: "Inter", sans-serif;
+  float: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .leftMenuContainer {
+    display: none;
+    clear: both;
+  }
+}
+/*# sourceMappingURL=LeftMenu.module.css.map */

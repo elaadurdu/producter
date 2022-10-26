@@ -1,0 +1,40 @@
+.bottom {
+  bottom: 0px;
+}
+
+.bottom ul {
+  list-style: none;
+  color: #405175;
+  size: 13px;
+  padding-left: 20px;
+}
+
+.bottom ul li {
+  height: 32px;
+  width: 161px;
+  margin-bottom: 10px;
+}
+
+.bottom ul li img {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bottom ul li:nth-child(2) {
+  width: 175px;
+}
+
+.bottom ul li:nth-child(4) {
+  height: 56px;
+  border-top: 1px solid #f6f9fb;
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid #f6f9fb;
+  color: #001747;
+}
+
+.bottom ul li:nth-child(5) {
+  height: 56px;
+  padding: 0px 0px 0px 0px;
+  color: #001747;
+}
+/*# sourceMappingURL=LeftMenuBottom.module.css.map */

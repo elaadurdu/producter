@@ -1,0 +1,10 @@
+.contentContainer {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 800px) {
+  .contentContainer {
+    padding-left: 32px;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */

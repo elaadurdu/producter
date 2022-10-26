@@ -1,0 +1,56 @@
+$projectNumber: #8c97ac;
+
+.cardContainer {
+    width: 242px;
+    height: 88px;
+    border: 1px solid rgba(0, 23, 71, 0.05);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    // display: flex;
+    // flex-direction: row-reverse;
+    margin-left: 0;
+    padding: 0;
+
+    .text {
+        color: #405175;
+        font-size: 13px;
+        padding-bottom: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .bottomInfo {
+        ul {
+            list-style-type: none;
+            float: left;
+            padding: 0;
+            width: 100%;
+            li {
+                float: left;
+
+                img {
+                }
+            }
+            li:nth-child(2) {
+                color: $projectNumber;
+                padding-left: 4px;
+            }
+
+            li:nth-child(5) {
+                float: right;
+                padding-right: 12px;
+            }
+            li:nth-child(4) {
+                float: right;
+                border: 1px solid rgba(0, 23, 71, 0.05);
+                border-radius: 4px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                padding: 0px 6px 0px 6px;
+            }
+            li:nth-child(3) {
+                float: right;
+                padding-left: 12px;
+            }
+        }
+    }
+}
